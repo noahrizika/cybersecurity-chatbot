@@ -1,24 +1,22 @@
-# Atom Take Home Test
+# Cybersecurity Chatbot
 
 <div align="center">
-  <h2>ChatBot Project</h2>
-  <p>Fully functional chatbot intended to help connect you with researchers in a specific field</p>
+  <h2>Payload Generator and Analysis</h2>
+  <p>Fully functional chatbot intended to generate payloads and aid in the analysis of cybersecurity-related code</p>
   <p>Made by <a href="https://noahrizika.github.io/">Noah Rizika</a></p>
 </div>
 
 ## Application Overview
 
-This web application features a prompt-engineered GPT-4o mini chatbot (using OpenAI's API) to provide names and contact information of researchers, as specified by the user's input for a specific research field.
+This web application uses OpenAI's API to create a prompt-engineered GPT-4o mini chatbot that provides attack payloads and aids in the analysis of cybersecurity-related code.
 
-**Project Inspiration**
+Key Features:
 
-In addition to building the chatbot as Atom's take-home challenge, I wanted to find a way to add value to Atom. I heard both from Hamilton and Tomer that one ambitious feature would be for researchers to communicate with fellow researchers who are both interested in a given grant. Given the limits of this stand-alone project, I prompt-engineered the chatbot to output the name and contact information of researchers. This project could help researchers identify potential applicants to their grant-of-interest, thereby bolstering collaboration across disciplines and the research industry as a whole.
-
-Features
-
-- Easily find contact information for researchers in your field of interest
-- View and engage in previous conversations or start a new chat
-- Friendly UI
+Interactive chat interface
+Chat freely with the OpenAI GPT-4o mini model
+Stores each chat interaction in a Supabase database
+View and engage in previous conversations or start a new chat
+Responsive design with Tailwind CSS
 
 ## Getting Started
 
@@ -83,7 +81,7 @@ This web app is intended for individual use. Hence, there is no authentication o
 
 **Organizational Design**
 
-I used PascalCase for component folders / files and camelCase for all other folders and files.
+I used CamelCase for component folders / files and drinkingCamelCase for all other folders and files.
 
 ChatBot components are organized by feature. Sub-components that are only used by one component (ie: Popup.tsx) are in its parent component's folder.
 
