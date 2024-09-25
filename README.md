@@ -12,11 +12,22 @@ This web application uses OpenAI's API to create a prompt-engineered GPT-4o mini
 
 Key Features:
 
-Interactive chat interface
-Chat freely with the OpenAI GPT-4o mini model
-Stores each chat interaction in a Supabase database
-View and engage in previous conversations or start a new chat
-Responsive design with Tailwind CSS
+- Interactive chat interface
+- Chat freely with the OpenAI GPT-4o mini model
+- Stores each chat interaction in a Supabase database
+- View and engage in previous conversations or start a new chat
+- Responsive design with Tailwind CSS
+
+# Utilities
+
+- Next.js 14 with App Router
+- React 18
+-Typescript
+- Tailwind CSS 3
+- Jest - Configured for unit testing
+- Prettier Formatting
+- Husky & Lint Staged
+- Conventional Commit Lint
 
 ## Getting Started
 
